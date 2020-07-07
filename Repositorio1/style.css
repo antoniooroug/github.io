@@ -1,0 +1,33 @@
+html{
+    font-size: 10px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+    font-family: 'Lato', sans-serif;
+    background-color: #00539F;/*color de fondo*/
+    text-align: justify;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;/*alinear texto al centro*/
+    margin: 0;/*elimina el estilo por defecto*/
+    padding: 20px 0;/*relleno arriba y abajo del título de 20 píxeles*/
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;/*sombra al texto del elemento h1, 3px desplazamiento hrizontal, 3px desplazamiento vertical, 1px  radio de desenfoque de la sombra, color de base de la sombra*/
+  }
+  
+  p, li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  body{
+    width: 600px;/*esto hará que el cuerpo siempre tenga 600 píxeles de ancho*/
+    margin: 0 auto;/*cuando seleccionas dos valores dentro de propiedades como margin o padding, el primer valor afectará los lados superior (top) e inferior (bottom) (en este caso haciéndolo en 0), y el segundo valor los lados izquierdo (left) y derecho (right) (aquí, auto es un valor especial que divide el espacio disponible entre derecha e izquierda).*/
+    background-color: #FF9500;/*como antes, este selecciona el color de fondo de un elemento. Se ha usado un naranja rojizo para el elemento body en contraste con el azul oscuro del elemento <html>*/
+    padding: 0 20px 20px 20px;/*tienes 4 valores puestos en el relleno, para dar un poco de espacio alrededor del contenido. Esta vez no pondrás relleno en la parte de arriba de body, 20 píxeles a la izquierda, abajo y derecha. Los valores se ponen: arriba, derecha, abajo e izquierda, en ese orden. */
+    border: 5px solid black;/*este simplemente pone un borde de 5 píxeles de ancho, continuo y de color negro alrededor del elemento body*/
+  }
+  img{
+      display: block;/*dar a la imagen un comportamiento de block-level */
+      margin: 0 auto;
+  }
